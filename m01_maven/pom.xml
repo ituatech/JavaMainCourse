@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project Object Model -->
+    <name>L01.1-maven</name>
+    <description>Code example for L01.1</description>
+
+    <developers>
+        <developer>
+            <name>MiR</name>
+        </developer>
+    </developers>
+
+    <!-- All POMs extend the Super POM unless explicitly set -->
+    <!--parent>*</parent-->
+
+    <groupId>com.it_uatech</groupId>
+    <artifactId>m01_maven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>12</maven.compiler.source>
+        <maven.compiler.target>12</maven.compiler.target>
+        <com.google.guava.version>28.1-jre</com.google.guava.version>
+        <maven.jar.plugin>3.1.2</maven.jar.plugin>
+        <maven.assembly.plugin>3.1.1</maven.assembly.plugin>
+        <my.variable>42</my.variable>
+    </properties>
+
+    <dependencies>
+        <!-- Obfuscator -->
+      <!--  <dependency>
+            <groupId>net.sf.proguard</groupId>
+            <artifactId>proguard</artifactId>
+            <version>4.4</version>
+        </dependency>
+        -->
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.1-jre</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>${project.name}</finalName>
+          <plugins>
+            <!--  <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-jar-plugin</artifactId>
+                  <version>${maven.jar.plugin}</version>
+                  <configuration>
+                      <archive>
+                          <manifest>
+                              <mainClass>com.it_uatech.Main</mainClass>
+                          </manifest>
+                      </archive>
+                  </configuration>
+              </plugin> -->
+                 <plugin>
+                     <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-assembly-plugin</artifactId>
+                     <version>${maven.assembly.plugin}</version>
+                     <executions>
+                         <execution>
+                             <id>create-archive</id>
+                             <phase>package</phase>
+                             <goals>
+                                 <goal>single</goal>
+                             </goals>
+                         </execution>
+                     </executions>
+                     <configuration>
+                         <appendAssemblyId>false</appendAssemblyId>
+                         <descriptorRefs>
+                             <descriptorRef>jar-with-dependencies</descriptorRef>
+                         </descriptorRefs>
+                         <archive>
+                             <manifest>
+                                 <mainClass>com.it_uatech.Main</mainClass>
+                             </manifest>
+                         </archive>
+                     </configuration>
+                 </plugin>
+             </plugins>
+      </build>
+
+</project>
