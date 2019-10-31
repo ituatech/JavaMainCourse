@@ -1,3 +1,4 @@
+
 Classfile /C:/JAVA_LERN/Java_MainJavaCourse/m01/target/classes/com/it_uatech/Main.class
   Last modified 31.10.2019; size 2745 bytes
   MD5 checksum 18a2de9fb1eb1e12bbe1d44da9d52633
