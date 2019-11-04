@@ -32,25 +32,16 @@
     </properties>
 
     <dependencies>
-        <!-- Obfuscator -->
-      <!--  <dependency>
-            <groupId>net.sf.proguard</groupId>
-            <artifactId>proguard</artifactId>
-            <version>4.4</version>
-        </dependency>
-        -->
-
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>28.1-jre</version>
         </dependency>
-
     </dependencies>
 
     <build>
         <finalName>${project.name}</finalName>
-          <plugins>
+        <plugins>
             <!--  <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
                   <artifactId>maven-jar-plugin</artifactId>
@@ -63,32 +54,70 @@
                       </archive>
                   </configuration>
               </plugin> -->
-                 <plugin>
-                     <groupId>org.apache.maven.plugins</groupId>
-                     <artifactId>maven-assembly-plugin</artifactId>
-                     <version>${maven.assembly.plugin}</version>
-                     <executions>
-                         <execution>
-                             <id>create-archive</id>
-                             <phase>package</phase>
-                             <goals>
-                                 <goal>single</goal>
-                             </goals>
-                         </execution>
-                     </executions>
-                     <configuration>
-                         <appendAssemblyId>false</appendAssemblyId>
-                         <descriptorRefs>
-                             <descriptorRef>jar-with-dependencies</descriptorRef>
-                         </descriptorRefs>
-                         <archive>
-                             <manifest>
-                                 <mainClass>com.it_uatech.Main</mainClass>
-                             </manifest>
-                         </archive>
-                     </configuration>
-                 </plugin>
-             </plugins>
-      </build>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>${maven.assembly.plugin}</version>
+                <executions>
+                    <execution>
+                        <id>create-archive</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.it_uatech.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <!-- OBFUSCATOR -->
+<!--            <plugin>
+                <groupId>com.github.wvengen</groupId>
+                <artifactId>proguard-maven-plugin</artifactId>
+                <version>2.2.0</version>
+                <executions>
+                    <execution>
+                        <id>create proguard jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>proguard</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <options>
+                        <option>-keepattributes Exceptions,InnerClasses,Signature,Deprecated,
+                            SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
+                        </option>
+                        <option>-keep public class com.it_uatech.Main {
+                            public static void main(java.lang.String[]);}
+                        </option>
+                        <option>-dontwarn</option>
+                        <option>-dontnote</option>
+                    </options>
+                    <outjar>${build.finalName}-small.jar</outjar>
+                    <mappingFileName>${build.finalName}.map</mappingFileName>
+                    <seedFileName>${build.finalName}.txt</seedFileName>
+                    <libs>
+                        <lib>${java.home}/jmods/java.base.jmod</lib>
+                    </libs>
+                    <inLibsFilter>!**.jar;!module-info.class</inLibsFilter>
+
+                </configuration>
+
+            </plugin> -->
+
+
+        </plugins>
+    </build>
 
 </project>
