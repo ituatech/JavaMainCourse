@@ -13,3 +13,6 @@
 **/build/
 **/gradle/
 **/.gradle/
+
+#Video
+**/Разработчик Java/
