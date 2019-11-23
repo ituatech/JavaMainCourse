@@ -1,4 +1,4 @@
-package com.it_uatech;
+package com.it_uatech.myTestBenchmark;
 
 import java.util.*;
 

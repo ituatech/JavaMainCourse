@@ -17,8 +17,9 @@
 	
 	<modules>
         <module>m01_maven</module>
-        <module>m03_base</module>
-        <module>m04_myArrayList</module>        
+        <module>m03_memory</module>
+        <module>m05_1_myArrayList</module>
+		<module>m05_2_TimeBenchmark_JMH</module>        
     </modules>
 
     
