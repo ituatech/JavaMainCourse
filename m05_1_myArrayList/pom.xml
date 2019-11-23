@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>L04.1-my-ArrayList</name>
-    <description>Code example for L04.1</description>
+    <name>L05.1-my-ArrayList</name>
+    <description>Code example for L05.1</description>
 
 
     <groupId>com.it_uatech</groupId>
-    <artifactId>m04_myArrayList</artifactId>
+    <artifactId>m05_1_myArrayList</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

@@ -1,0 +1,16 @@
+23-11-2019 15:58:20 INFO  GCNotification:39 - Garbage collectors are used in JVM:
+23-11-2019 15:58:20 INFO  GCNotification:41 - G1 Young Generation
+23-11-2019 15:58:20 INFO  GCNotification:41 - G1 Old Generation
+23-11-2019 15:58:20 INFO  GCNotification:60 - end of major GC: - 1, G1 Old Generation (from System.gc()) 16 milliseconds
+23-11-2019 15:58:20 INFO  GCNotification:60 - end of major GC: - 2, G1 Old Generation (from System.gc()) 12 milliseconds
+23-11-2019 15:58:21 INFO  MemoryCheck:30 - References size: 41457184, Array size: 10000000
+23-11-2019 15:58:21 INFO  MemoryCheck:40 - name:Object, size: 16
+23-11-2019 15:58:23 INFO  MemoryCheck:40 - name:String, size: 48
+23-11-2019 15:58:25 INFO  MemoryCheck:40 - name:String, size: 24
+23-11-2019 15:58:26 INFO  MemoryCheck:40 - name:String, size: 48
+23-11-2019 15:58:27 INFO  MemoryCheck:40 - name:MyClass, size: 40
+23-11-2019 15:58:28 INFO  MemoryCheck:40 - name:int, size: 16
+23-11-2019 15:58:29 INFO  MemoryCheck:40 - name:int, size: 56
+23-11-2019 15:58:30 INFO  MemoryCheck:40 - name:int, size: 96
+23-11-2019 15:58:31 INFO  MemoryCheck:40 - name:int, size: 136
+23-11-2019 15:58:33 INFO  MemoryCheck:40 - name:int, size: 176
