@@ -3,7 +3,8 @@ package com.it_uatech.myTestBenchmark;
 import java.util.*;
 
 public class TestOperationTimeList {
-    private static final int NUMBER_OF_MEASUREMENT = 1;
+    private static final int NUMBER_OF_MEASUREMENT = 10;
+    private static final int WARN_UP_TIME = 50;
 
     public static void main(String[] args) {
 
@@ -25,13 +26,13 @@ public class TestOperationTimeList {
 
 
         String time = timeMeasure(
-                ()->collection.contains(4_000_000)
+                ()->collection.contains(2_500_000)
         );
 
         System.out.println("Measurement for contains: "+time);
 
         String time1 = timeMeasure(
-                ()->collection.remove(4_000_000)
+                ()->collection.remove(2_500_000)
         );
 
         System.out.println("Measurement for remove: "+time1);
@@ -56,7 +57,12 @@ public class TestOperationTimeList {
     }
 
     private static String timeMeasure(Runnable runnable){
+        for (int i = 0; i < WARN_UP_TIME; i++){
+            runnable.run();
+        }
+
         long startTime = System.nanoTime();
+
         for (int i = 0; i < NUMBER_OF_MEASUREMENT; i++){
             runnable.run();
         }
