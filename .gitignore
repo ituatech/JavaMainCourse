@@ -16,3 +16,9 @@
 
 #Video
 **/Video_java_developer/
+
+#Dumps
+**/dumps
+
+#Logs
+**/.log
