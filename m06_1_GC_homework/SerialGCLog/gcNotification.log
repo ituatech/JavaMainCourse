@@ -1,0 +1,75 @@
+#########################################################
+Info per interval: 60 s, GC done: 0, GC duration: 0 ms
+#########################################################
+17 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 1, GC Duration: 23 ms, GC Couse: Allocation Failure
+51 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 2, GC Duration: 41 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 64 ms
+#########################################################
+87 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 3, GC Duration: 52 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 1, GC duration: 52 ms
+#########################################################
+123 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 4, GC Duration: 49 ms, GC Couse: Allocation Failure
+159 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 5, GC Duration: 1 ms, GC Couse: Allocation Failure
+159 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 1, GC Duration: 87 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 137 ms
+#########################################################
+195 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 6, GC Duration: 36 ms, GC Couse: Allocation Failure
+232 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 7, GC Duration: 0 ms, GC Couse: Allocation Failure
+232 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 2, GC Duration: 113 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 149 ms
+#########################################################
+268 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 8, GC Duration: 0 ms, GC Couse: Allocation Failure
+268 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 3, GC Duration: 133 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 133 ms
+#########################################################
+305 s - GC Name: Copy, GC Action: end of minor GC, GC ID: 9, GC Duration: 0 ms, GC Couse: Allocation Failure
+305 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 4, GC Duration: 129 ms, GC Couse: Allocation Failure
+339 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 5, GC Duration: 128 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 257 ms
+#########################################################
+360 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 6, GC Duration: 142 ms, GC Couse: Allocation Failure
+377 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 7, GC Duration: 153 ms, GC Couse: Allocation Failure
+390 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 8, GC Duration: 159 ms, GC Couse: Allocation Failure
+398 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 9, GC Duration: 126 ms, GC Couse: Allocation Failure
+401 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 10, GC Duration: 130 ms, GC Couse: Allocation Failure
+402 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 11, GC Duration: 125 ms, GC Couse: Allocation Failure
+402 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 12, GC Duration: 133 ms, GC Couse: Allocation Failure
+407 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 13, GC Duration: 135 ms, GC Couse: Allocation Failure
+409 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 14, GC Duration: 132 ms, GC Couse: Allocation Failure
+409 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 15, GC Duration: 125 ms, GC Couse: Allocation Failure
+410 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 16, GC Duration: 159 ms, GC Couse: Allocation Failure
+412 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 17, GC Duration: 138 ms, GC Couse: Allocation Failure
+413 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 18, GC Duration: 114 ms, GC Couse: Allocation Failure
+414 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 19, GC Duration: 124 ms, GC Couse: Allocation Failure
+414 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 20, GC Duration: 164 ms, GC Couse: Allocation Failure
+415 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 21, GC Duration: 120 ms, GC Couse: Allocation Failure
+416 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 22, GC Duration: 134 ms, GC Couse: Allocation Failure
+416 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 23, GC Duration: 115 ms, GC Couse: Allocation Failure
+416 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 24, GC Duration: 164 ms, GC Couse: Allocation Failure
+417 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 25, GC Duration: 129 ms, GC Couse: Allocation Failure
+418 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 26, GC Duration: 125 ms, GC Couse: Allocation Failure
+418 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 27, GC Duration: 130 ms, GC Couse: Allocation Failure
+418 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 28, GC Duration: 154 ms, GC Couse: Allocation Failure
+418 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 29, GC Duration: 129 ms, GC Couse: Allocation Failure
+419 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 30, GC Duration: 127 ms, GC Couse: Allocation Failure
+419 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 31, GC Duration: 123 ms, GC Couse: Allocation Failure
+419 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 32, GC Duration: 128 ms, GC Couse: Allocation Failure
+419 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 33, GC Duration: 127 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 28, GC duration: 3764 ms
+#########################################################
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 34, GC Duration: 140 ms, GC Couse: Allocation Failure
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 35, GC Duration: 104 ms, GC Couse: Allocation Failure
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 36, GC Duration: 126 ms, GC Couse: Allocation Failure
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 37, GC Duration: 103 ms, GC Couse: Allocation Failure
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 38, GC Duration: 104 ms, GC Couse: Allocation Failure
+420 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 39, GC Duration: 108 ms, GC Couse: Allocation Failure
+421 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 40, GC Duration: 127 ms, GC Couse: Allocation Failure
+421 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 41, GC Duration: 108 ms, GC Couse: Allocation Failure
+424 s - GC Name: MarkSweepCompact, GC Action: end of major GC, GC ID: 43, GC Duration: 106 ms, GC Couse: Allocation Failure

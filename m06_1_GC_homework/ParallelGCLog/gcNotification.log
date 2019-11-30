@@ -1,0 +1,55 @@
+#########################################################
+Info per interval: 60 s, GC done: 0, GC duration: 0 ms
+#########################################################
+15 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 1, GC Duration: 17 ms, GC Couse: Allocation Failure
+47 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 2, GC Duration: 36 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 53 ms
+#########################################################
+81 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 3, GC Duration: 49 ms, GC Couse: Allocation Failure
+115 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 4, GC Duration: 57 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 106 ms
+#########################################################
+149 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 5, GC Duration: 52 ms, GC Couse: Allocation Failure
+149 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 1, GC Duration: 117 ms, GC Couse: Ergonomics
+164 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 6, GC Duration: 12 ms, GC Couse: Allocation Failure
+179 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 7, GC Duration: 30 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 4, GC duration: 211 ms
+#########################################################
+194 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 8, GC Duration: 36 ms, GC Couse: Allocation Failure
+194 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 2, GC Duration: 98 ms, GC Couse: Ergonomics
+209 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 9, GC Duration: 14 ms, GC Couse: Allocation Failure
+209 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 3, GC Duration: 113 ms, GC Couse: Ergonomics
+224 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 10, GC Duration: 14 ms, GC Couse: Allocation Failure
+224 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 4, GC Duration: 139 ms, GC Couse: Ergonomics
+239 s - GC Name: PS Scavenge, GC Action: end of minor GC, GC ID: 11, GC Duration: 13 ms, GC Couse: Allocation Failure
+239 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 5, GC Duration: 132 ms, GC Couse: Ergonomics
+#########################################################
+Info per interval: 60 s, GC done: 8, GC duration: 559 ms
+#########################################################
+254 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 6, GC Duration: 147 ms, GC Couse: Ergonomics
+269 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 7, GC Duration: 162 ms, GC Couse: Ergonomics
+284 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 8, GC Duration: 170 ms, GC Couse: Ergonomics
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 479 ms
+#########################################################
+300 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 9, GC Duration: 169 ms, GC Couse: Ergonomics
+310 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 10, GC Duration: 180 ms, GC Couse: Ergonomics
+317 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 11, GC Duration: 160 ms, GC Couse: Ergonomics
+323 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 12, GC Duration: 200 ms, GC Couse: Ergonomics
+326 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 13, GC Duration: 229 ms, GC Couse: Ergonomics
+328 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 14, GC Duration: 197 ms, GC Couse: Ergonomics
+330 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 15, GC Duration: 217 ms, GC Couse: Ergonomics
+331 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 16, GC Duration: 206 ms, GC Couse: Ergonomics
+332 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 17, GC Duration: 191 ms, GC Couse: Ergonomics
+333 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 18, GC Duration: 176 ms, GC Couse: Ergonomics
+333 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 19, GC Duration: 194 ms, GC Couse: Ergonomics
+333 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 20, GC Duration: 182 ms, GC Couse: Ergonomics
+334 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 21, GC Duration: 189 ms, GC Couse: Ergonomics
+335 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 22, GC Duration: 189 ms, GC Couse: Ergonomics
+335 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 23, GC Duration: 181 ms, GC Couse: Ergonomics
+339 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 24, GC Duration: 183 ms, GC Couse: Ergonomics
+343 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 27, GC Duration: 128 ms, GC Couse: Ergonomics
+343 s - GC Name: PS MarkSweep, GC Action: end of major GC, GC ID: 28, GC Duration: 175 ms, GC Couse: Ergonomics

@@ -8,7 +8,7 @@
     <description>Code example for L05.2</description>
 
     <groupId>com.it_uatech</groupId>
-    <artifactId>m5_2_TimeBenchmark_JMH</artifactId>
+    <artifactId>m05_2_TimeBenchmark_JMH</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>

@@ -14,8 +14,8 @@ public class MyArrayListTest {
 
     @Before
     public void createList(){
-        myArrayList = new MyArrayList<>();
-        myArrayListUnsorted = new MyArrayList<>();
+        myArrayList = new MyArrayList<Integer>();
+        myArrayListUnsorted = new MyArrayList<Integer>();
         Assert.assertEquals(10,myArrayList.getArrayLength());
         for (int i = 0; i < 10; i++){
             myArrayList.add(i);
@@ -48,8 +48,8 @@ public class MyArrayListTest {
 
     @Test
     public void arrayCopyTest(){
-        MyArrayList<Integer> myArrayList1 = new MyArrayList<>();
-        MyArrayList<Integer> myArrayList2 = new MyArrayList<>();
+        MyArrayList<Integer> myArrayList1 = new MyArrayList<Integer>();
+        MyArrayList<Integer> myArrayList2 = new MyArrayList<Integer>();
         for (int i=0;i<10;i++){
             myArrayList1.add(i);
             if(i<6) {

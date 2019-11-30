@@ -1,0 +1,179 @@
+#########################################################
+Info per interval: 60 s, GC done: 0, GC duration: 0 ms
+#########################################################
+14 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 1, GC Duration: 28 ms, GC Couse: Allocation Failure
+34 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 2, GC Duration: 31 ms, GC Couse: Allocation Failure
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 59 ms
+#########################################################
+66 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 3, GC Duration: 58 ms, GC Couse: Allocation Failure
+98 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 4, GC Duration: 33 ms, GC Couse: Allocation Failure
+98 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 1, GC Duration: 49 ms, GC Couse: No GC
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 140 ms
+#########################################################
+131 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 5, GC Duration: 33 ms, GC Couse: Allocation Failure
+131 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 2, GC Duration: 52 ms, GC Couse: No GC
+133 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 3, GC Duration: 64 ms, GC Couse: No GC
+140 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 4, GC Duration: 5107 ms, GC Couse: No GC
+148 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 5, GC Duration: 5096 ms, GC Couse: No GC
+155 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 6, GC Duration: 5053 ms, GC Couse: No GC
+162 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 7, GC Duration: 5131 ms, GC Couse: No GC
+164 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 6, GC Duration: 34 ms, GC Couse: Allocation Failure
+169 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 8, GC Duration: 5123 ms, GC Couse: No GC
+176 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 9, GC Duration: 5079 ms, GC Couse: No GC
+#########################################################
+Info per interval: 60 s, GC done: 10, GC duration: 30772 ms
+#########################################################
+183 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 10, GC Duration: 5108 ms, GC Couse: No GC
+190 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 11, GC Duration: 5064 ms, GC Couse: No GC
+197 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 7, GC Duration: 59 ms, GC Couse: Allocation Failure
+197 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 12, GC Duration: 5091 ms, GC Couse: No GC
+199 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 13, GC Duration: 81 ms, GC Couse: No GC
+206 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 14, GC Duration: 5176 ms, GC Couse: No GC
+209 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 15, GC Duration: 1005 ms, GC Couse: No GC
+212 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 16, GC Duration: 577 ms, GC Couse: No GC
+214 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 17, GC Duration: 76 ms, GC Couse: No GC
+216 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 18, GC Duration: 59 ms, GC Couse: No GC
+218 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 19, GC Duration: 68 ms, GC Couse: No GC
+220 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 20, GC Duration: 78 ms, GC Couse: No GC
+222 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 21, GC Duration: 74 ms, GC Couse: No GC
+224 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 22, GC Duration: 62 ms, GC Couse: No GC
+227 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 23, GC Duration: 72 ms, GC Couse: No GC
+230 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 8, GC Duration: 34 ms, GC Couse: Allocation Failure
+230 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 24, GC Duration: 1399 ms, GC Couse: No GC
+232 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 25, GC Duration: 86 ms, GC Couse: No GC
+234 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 26, GC Duration: 79 ms, GC Couse: No GC
+236 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 27, GC Duration: 104 ms, GC Couse: No GC
+238 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 28, GC Duration: 98 ms, GC Couse: No GC
+#########################################################
+Info per interval: 60 s, GC done: 21, GC duration: 24450 ms
+#########################################################
+240 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 29, GC Duration: 94 ms, GC Couse: No GC
+242 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 30, GC Duration: 88 ms, GC Couse: No GC
+245 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 31, GC Duration: 81 ms, GC Couse: No GC
+247 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 32, GC Duration: 73 ms, GC Couse: No GC
+249 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 33, GC Duration: 87 ms, GC Couse: No GC
+251 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 34, GC Duration: 71 ms, GC Couse: No GC
+253 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 35, GC Duration: 79 ms, GC Couse: No GC
+255 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 36, GC Duration: 86 ms, GC Couse: No GC
+257 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 37, GC Duration: 69 ms, GC Couse: No GC
+259 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 38, GC Duration: 89 ms, GC Couse: No GC
+261 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 39, GC Duration: 67 ms, GC Couse: No GC
+262 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 9, GC Duration: 0 ms, GC Couse: Allocation Failure
+262 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 40, GC Duration: 137 ms, GC Couse: Allocation Failure
+262 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 41, GC Duration: 67 ms, GC Couse: No GC
+264 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 42, GC Duration: 71 ms, GC Couse: No GC
+267 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 43, GC Duration: 497 ms, GC Couse: No GC
+269 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 44, GC Duration: 87 ms, GC Couse: No GC
+271 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 45, GC Duration: 93 ms, GC Couse: No GC
+273 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 46, GC Duration: 76 ms, GC Couse: No GC
+275 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 47, GC Duration: 89 ms, GC Couse: No GC
+277 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 48, GC Duration: 91 ms, GC Couse: No GC
+279 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 49, GC Duration: 90 ms, GC Couse: No GC
+281 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 50, GC Duration: 81 ms, GC Couse: No GC
+283 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 51, GC Duration: 91 ms, GC Couse: No GC
+286 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 52, GC Duration: 93 ms, GC Couse: No GC
+288 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 53, GC Duration: 88 ms, GC Couse: No GC
+290 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 54, GC Duration: 70 ms, GC Couse: No GC
+292 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 55, GC Duration: 77 ms, GC Couse: No GC
+294 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 56, GC Duration: 92 ms, GC Couse: No GC
+295 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 10, GC Duration: 52 ms, GC Couse: Allocation Failure
+295 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 57, GC Duration: 135 ms, GC Couse: Allocation Failure
+295 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 58, GC Duration: 141 ms, GC Couse: No GC
+297 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 59, GC Duration: 113 ms, GC Couse: No GC
+299 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 60, GC Duration: 94 ms, GC Couse: No GC
+#########################################################
+Info per interval: 60 s, GC done: 34, GC duration: 3309 ms
+#########################################################
+301 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 61, GC Duration: 78 ms, GC Couse: No GC
+303 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 62, GC Duration: 106 ms, GC Couse: No GC
+305 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 63, GC Duration: 101 ms, GC Couse: No GC
+307 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 64, GC Duration: 95 ms, GC Couse: No GC
+309 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 65, GC Duration: 91 ms, GC Couse: No GC
+312 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 66, GC Duration: 99 ms, GC Couse: No GC
+314 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 67, GC Duration: 76 ms, GC Couse: No GC
+316 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 68, GC Duration: 94 ms, GC Couse: No GC
+318 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 69, GC Duration: 97 ms, GC Couse: No GC
+320 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 70, GC Duration: 99 ms, GC Couse: No GC
+322 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 71, GC Duration: 83 ms, GC Couse: No GC
+324 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 72, GC Duration: 85 ms, GC Couse: No GC
+325 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 11, GC Duration: 0 ms, GC Couse: Allocation Failure
+325 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 73, GC Duration: 165 ms, GC Couse: Allocation Failure
+326 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 74, GC Duration: 128 ms, GC Couse: No GC
+328 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 75, GC Duration: 100 ms, GC Couse: No GC
+330 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 76, GC Duration: 114 ms, GC Couse: No GC
+332 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 77, GC Duration: 96 ms, GC Couse: No GC
+334 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 78, GC Duration: 102 ms, GC Couse: No GC
+336 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 79, GC Duration: 98 ms, GC Couse: No GC
+338 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 80, GC Duration: 86 ms, GC Couse: No GC
+340 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 81, GC Duration: 92 ms, GC Couse: No GC
+342 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 82, GC Duration: 79 ms, GC Couse: No GC
+344 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 83, GC Duration: 109 ms, GC Couse: No GC
+347 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 84, GC Duration: 104 ms, GC Couse: No GC
+348 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 12, GC Duration: 0 ms, GC Couse: Allocation Failure
+348 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 85, GC Duration: 160 ms, GC Couse: Allocation Failure
+349 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 86, GC Duration: 140 ms, GC Couse: No GC
+351 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 87, GC Duration: 102 ms, GC Couse: No GC
+353 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 88, GC Duration: 120 ms, GC Couse: No GC
+355 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 89, GC Duration: 90 ms, GC Couse: No GC
+357 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 90, GC Duration: 108 ms, GC Couse: No GC
+359 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 91, GC Duration: 100 ms, GC Couse: No GC
+#########################################################
+Info per interval: 60 s, GC done: 33, GC duration: 3197 ms
+#########################################################
+361 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 92, GC Duration: 110 ms, GC Couse: No GC
+363 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 93, GC Duration: 107 ms, GC Couse: No GC
+365 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 13, GC Duration: 0 ms, GC Couse: Allocation Failure
+365 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 94, GC Duration: 160 ms, GC Couse: Allocation Failure
+365 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 95, GC Duration: 141 ms, GC Couse: No GC
+367 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 96, GC Duration: 127 ms, GC Couse: No GC
+369 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 97, GC Duration: 100 ms, GC Couse: No GC
+371 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 98, GC Duration: 114 ms, GC Couse: No GC
+373 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 99, GC Duration: 106 ms, GC Couse: No GC
+375 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 100, GC Duration: 116 ms, GC Couse: No GC
+376 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 14, GC Duration: 0 ms, GC Couse: Allocation Failure
+376 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 101, GC Duration: 153 ms, GC Couse: Allocation Failure
+376 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 102, GC Duration: 148 ms, GC Couse: No GC
+379 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 103, GC Duration: 128 ms, GC Couse: No GC
+381 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 104, GC Duration: 119 ms, GC Couse: No GC
+383 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 105, GC Duration: 111 ms, GC Couse: No GC
+384 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 15, GC Duration: 0 ms, GC Couse: Allocation Failure
+384 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 106, GC Duration: 188 ms, GC Couse: Allocation Failure
+384 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 107, GC Duration: 149 ms, GC Couse: No GC
+386 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 108, GC Duration: 104 ms, GC Couse: No GC
+388 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 109, GC Duration: 121 ms, GC Couse: No GC
+390 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 16, GC Duration: 0 ms, GC Couse: Allocation Failure
+390 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 110, GC Duration: 180 ms, GC Couse: Allocation Failure
+390 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 111, GC Duration: 157 ms, GC Couse: No GC
+392 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 112, GC Duration: 117 ms, GC Couse: No GC
+394 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 113, GC Duration: 124 ms, GC Couse: No GC
+395 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 17, GC Duration: 0 ms, GC Couse: Allocation Failure
+395 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 114, GC Duration: 181 ms, GC Couse: Allocation Failure
+395 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 115, GC Duration: 147 ms, GC Couse: No GC
+397 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 116, GC Duration: 123 ms, GC Couse: No GC
+397 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 18, GC Duration: 0 ms, GC Couse: Allocation Failure
+397 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 117, GC Duration: 165 ms, GC Couse: Allocation Failure
+397 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 118, GC Duration: 155 ms, GC Couse: No GC
+399 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 19, GC Duration: 0 ms, GC Couse: Allocation Failure
+399 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 119, GC Duration: 187 ms, GC Couse: Allocation Failure
+400 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 120, GC Duration: 179 ms, GC Couse: No GC
+401 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 20, GC Duration: 0 ms, GC Couse: Allocation Failure
+401 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 121, GC Duration: 165 ms, GC Couse: Allocation Failure
+401 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 122, GC Duration: 147 ms, GC Couse: No GC
+402 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 21, GC Duration: 0 ms, GC Couse: Allocation Failure
+402 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 123, GC Duration: 185 ms, GC Couse: Allocation Failure
+403 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 124, GC Duration: 151 ms, GC Couse: No GC
+404 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 22, GC Duration: 0 ms, GC Couse: Allocation Failure
+404 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 125, GC Duration: 178 ms, GC Couse: Allocation Failure
+404 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 126, GC Duration: 155 ms, GC Couse: No GC
+404 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 23, GC Duration: 1 ms, GC Couse: Allocation Failure
+404 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 127, GC Duration: 198 ms, GC Couse: Allocation Failure
+405 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 128, GC Duration: 150 ms, GC Couse: No GC
+405 s - GC Name: ParNew, GC Action: end of minor GC, GC ID: 24, GC Duration: 0 ms, GC Couse: Allocation Failure
+405 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 129, GC Duration: 176 ms, GC Couse: Allocation Failure
+405 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 130, GC Duration: 196 ms, GC Couse: Allocation Failure
+406 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 131, GC Duration: 154 ms, GC Couse: Allocation Failure
+407 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 132, GC Duration: 205 ms, GC Couse: Allocation Failure
+408 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 133, GC Duration: 156 ms, GC Couse: Allocation Failure
+412 s - GC Name: ConcurrentMarkSweep, GC Action: end of major GC, GC ID: 134, GC Duration: 151 ms, GC Couse: Allocation Failure

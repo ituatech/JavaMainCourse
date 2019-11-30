@@ -1,0 +1,6 @@
+28-11-2019 15:19:30 INFO  Application:33 - GC work test, app PID: 9368
+28-11-2019 15:19:30 INFO  Application:34 - JVM List arguments: [-Xms64M, -Xmx64M, -XX:+UseConcMarkSweepGC, -verbose:gc, -Xlog:gc*:file=./logs/gc_%t_pid_%p.log, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=./dumps, -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar=61045:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin, -Dfile.encoding=UTF-8]
+28-11-2019 15:26:22 ERROR Application:39 - OOM has occured!
+28-11-2019 15:26:22 INFO  Application:42 - Total Young GC activities: 24, Total duration Young: 363 ms
+28-11-2019 15:26:22 INFO  Application:42 - Total Old GC activities: 134, Total duration Old: 67949 ms
+28-11-2019 15:26:22 INFO  Application:42 - Total app duration: 412 s

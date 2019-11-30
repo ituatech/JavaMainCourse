@@ -1,0 +1,106 @@
+#########################################################
+Info per interval: 60 s, GC done: 0, GC duration: 0 ms
+#########################################################
+8 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 1, GC Duration: 7 ms, GC Couse: G1 Evacuation Pause
+9 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 2, GC Duration: 8 ms, GC Couse: G1 Evacuation Pause
+33 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 3, GC Duration: 27 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 3, GC duration: 42 ms
+#########################################################
+72 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 4, GC Duration: 25 ms, GC Couse: G1 Evacuation Pause
+107 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 5, GC Duration: 43 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 2, GC duration: 68 ms
+#########################################################
+131 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 6, GC Duration: 43 ms, GC Couse: G1 Evacuation Pause
+148 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 7, GC Duration: 29 ms, GC Couse: G1 Evacuation Pause
+160 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 8, GC Duration: 25 ms, GC Couse: G1 Evacuation Pause
+163 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 9, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+179 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 10, GC Duration: 28 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 5, GC duration: 134 ms
+#########################################################
+192 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 11, GC Duration: 13 ms, GC Couse: G1 Evacuation Pause
+194 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 12, GC Duration: 7 ms, GC Couse: G1 Evacuation Pause
+208 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 13, GC Duration: 28 ms, GC Couse: G1 Evacuation Pause
+217 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 14, GC Duration: 18 ms, GC Couse: G1 Evacuation Pause
+221 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 15, GC Duration: 21 ms, GC Couse: G1 Evacuation Pause
+233 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 16, GC Duration: 19 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 6, GC duration: 106 ms
+#########################################################
+242 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 17, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+246 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 18, GC Duration: 16 ms, GC Couse: G1 Evacuation Pause
+255 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 19, GC Duration: 20 ms, GC Couse: G1 Evacuation Pause
+263 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 20, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+267 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 21, GC Duration: 6 ms, GC Couse: G1 Evacuation Pause
+270 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 22, GC Duration: 7 ms, GC Couse: G1 Evacuation Pause
+276 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 23, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+280 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 24, GC Duration: 17 ms, GC Couse: G1 Evacuation Pause
+284 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 25, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+288 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 26, GC Duration: 19 ms, GC Couse: G1 Evacuation Pause
+292 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 27, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+295 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 28, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+299 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 29, GC Duration: 8 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 13, GC duration: 153 ms
+#########################################################
+303 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 30, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+307 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 31, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+310 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 32, GC Duration: 8 ms, GC Couse: G1 Evacuation Pause
+314 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 33, GC Duration: 7 ms, GC Couse: G1 Evacuation Pause
+318 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 34, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+322 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 35, GC Duration: 5 ms, GC Couse: G1 Evacuation Pause
+325 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 36, GC Duration: 11 ms, GC Couse: G1 Evacuation Pause
+329 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 37, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+333 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 38, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+336 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 39, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+340 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 40, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+344 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 41, GC Duration: 17 ms, GC Couse: G1 Evacuation Pause
+347 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 42, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+351 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 43, GC Duration: 9 ms, GC Couse: G1 Evacuation Pause
+355 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 44, GC Duration: 11 ms, GC Couse: G1 Evacuation Pause
+359 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 45, GC Duration: 6 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 16, GC duration: 160 ms
+#########################################################
+362 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 46, GC Duration: 15 ms, GC Couse: G1 Evacuation Pause
+366 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 47, GC Duration: 18 ms, GC Couse: G1 Evacuation Pause
+366 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 1, GC Duration: 100 ms, GC Couse: G1 Evacuation Pause
+371 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 48, GC Duration: 5 ms, GC Couse: G1 Evacuation Pause
+374 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 49, GC Duration: 4 ms, GC Couse: G1 Evacuation Pause
+378 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 50, GC Duration: 11 ms, GC Couse: G1 Evacuation Pause
+382 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 51, GC Duration: 11 ms, GC Couse: G1 Evacuation Pause
+382 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 2, GC Duration: 145 ms, GC Couse: G1 Evacuation Pause
+386 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 52, GC Duration: 4 ms, GC Couse: G1 Evacuation Pause
+390 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 53, GC Duration: 7 ms, GC Couse: G1 Evacuation Pause
+392 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 54, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+392 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 3, GC Duration: 103 ms, GC Couse: G1 Evacuation Pause
+397 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 55, GC Duration: 14 ms, GC Couse: G1 Evacuation Pause
+397 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 4, GC Duration: 149 ms, GC Couse: G1 Evacuation Pause
+401 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 56, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+401 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 5, GC Duration: 111 ms, GC Couse: G1 Evacuation Pause
+404 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 57, GC Duration: 10 ms, GC Couse: G1 Evacuation Pause
+404 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 6, GC Duration: 124 ms, GC Couse: G1 Evacuation Pause
+406 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 58, GC Duration: 6 ms, GC Couse: G1 Evacuation Pause
+406 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 7, GC Duration: 109 ms, GC Couse: G1 Evacuation Pause
+409 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 59, GC Duration: 5 ms, GC Couse: G1 Evacuation Pause
+409 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 8, GC Duration: 104 ms, GC Couse: G1 Evacuation Pause
+412 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 60, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+412 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 9, GC Duration: 116 ms, GC Couse: G1 Evacuation Pause
+414 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 61, GC Duration: 3 ms, GC Couse: G1 Evacuation Pause
+414 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 10, GC Duration: 110 ms, GC Couse: G1 Evacuation Pause
+414 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 62, GC Duration: 4 ms, GC Couse: G1 Evacuation Pause
+414 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 11, GC Duration: 127 ms, GC Couse: G1 Evacuation Pause
+416 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 63, GC Duration: 4 ms, GC Couse: G1 Evacuation Pause
+416 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 12, GC Duration: 104 ms, GC Couse: G1 Evacuation Pause
+418 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 64, GC Duration: 5 ms, GC Couse: G1 Evacuation Pause
+418 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 13, GC Duration: 147 ms, GC Couse: G1 Evacuation Pause
+419 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 65, GC Duration: 6 ms, GC Couse: G1 Evacuation Pause
+419 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 14, GC Duration: 164 ms, GC Couse: G1 Evacuation Pause
+#########################################################
+Info per interval: 60 s, GC done: 34, GC duration: 1881 ms
+#########################################################
+421 s - GC Name: G1 Young Generation, GC Action: end of minor GC, GC ID: 66, GC Duration: 12 ms, GC Couse: G1 Evacuation Pause
+421 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 15, GC Duration: 132 ms, GC Couse: G1 Evacuation Pause
+425 s - GC Name: G1 Old Generation, GC Action: end of major GC, GC ID: 16, GC Duration: 118 ms, GC Couse: G1 Evacuation Pause
