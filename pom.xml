@@ -19,7 +19,9 @@
         <module>m01_maven</module>
         <module>m03_memory</module>
         <module>m05_1_myArrayList</module>
-		<module>m05_2_TimeBenchmark_JMH</module>        
+		<module>m05_2_TimeBenchmark_JMH</module>  
+		<module>m07_1_GC_homework</module>	
+		<module>m09_1_myJUnit</module>
     </modules>
 
     

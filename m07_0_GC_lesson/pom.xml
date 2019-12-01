@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.it_uatech</groupId>
-    <artifactId>m06_0_GC_lesson</artifactId>
+    <artifactId>m07_0_GC_lesson</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -14,7 +14,7 @@
     </properties>
 
     <build>
-        <finalName>L06.1-gc</finalName>
+        <finalName>L07.1-gc</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
