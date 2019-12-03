@@ -1,0 +1,51 @@
+03-12-2019 14:23:31 INFO  RunMyJUnit:13 - Start test my TestClassFirst
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:33 - call test 1
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:40 - call test 2
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:47 - call test 3
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  RunMyJUnit:15 - ---------------------------------------
+03-12-2019 14:23:31 INFO  RunMyJUnit:16 - Start test my TestClassFirst and TestClassSecond
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:33 - call test 1
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:40 - call test 2
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:47 - call test 3
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:33 - call test 1
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:40 - call test 2
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:47 - call test 3
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  RunMyJUnit:18 - ---------------------------------------
+03-12-2019 14:23:31 INFO  RunMyJUnit:19 - Start test my Package
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:33 - call test 1
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:40 - call test 2
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassFirst:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassFirst:47 - call test 3
+03-12-2019 14:23:31 INFO  TestClassFirst:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:33 - call test 1
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:40 - call test 2
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  TestClassSecond:26 - call @Before
+03-12-2019 14:23:31 INFO  TestClassSecond:47 - call test 3
+03-12-2019 14:23:31 INFO  TestClassSecond:54 - call @After
+03-12-2019 14:23:31 INFO  RunMyJUnit:21 - ---------------------------------------
