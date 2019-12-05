@@ -11,7 +11,7 @@ public class Register {
     private Map<String, Object> register = new HashMap<>();
     private Map<Field, Object> injectionsPlaces = new HashMap<>();
 
-    public Optional<Object> get(String name) {
+    public Optional<?> get(String name) {
         Object something = register.get(name);
         return Optional.ofNullable(something);
     }
@@ -57,6 +57,10 @@ public class Register {
                 field.set(patient, injection);
             } catch (IllegalAccessException e) {
                 throw new RuntimeException(e);
+            }finally {
+                if (field != null && !field.canAccess(patient)) {
+                    field.setAccessible(false);
+                }
             }
 
         }

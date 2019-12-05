@@ -1,11 +1,10 @@
-package ru.klimakov.nurse;
+package com.it_uatech;
 
 
 import com.google.common.reflect.ClassPath;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.util.List;
 
 public class Nurse {
 
@@ -31,7 +30,7 @@ public class Nurse {
                     .stream()
                     .filter(info -> info.getName().startsWith(packageName))
                     .map(ClassPath.ClassInfo::load)
-                    .filter(clazz -> clazz.isAnnotationPresent(Cure.class))
+                    //.filter(clazz -> clazz.isAnnotationPresent(Cure.class))
                     .forEach(info -> register.add(info));
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -44,7 +43,7 @@ public class Nurse {
         register.inject();
         return register;
     }
-
+/**
     public Nurse registerInfirmary(Infirmary infirmary) {
         List<Inmate> inmates = infirmary.getInmates();
         for (Inmate inmate: inmates) {
@@ -65,5 +64,5 @@ public class Nurse {
 
         }
         return this;
-    }
+    }**/
 }

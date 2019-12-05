@@ -44,7 +44,7 @@ public class RegisterTest {
         Assert.assertEquals(retrievedOne, one);
         Assert.assertEquals(retrievedTwo, two);
     }
-/**
+
     @Test
     public void componentsCanBeInjectedInsideOtherComponents() {
         Glucose one = new Glucose();
@@ -56,10 +56,10 @@ public class RegisterTest {
         Glucose injectedOne = retrievedPatient.getGlucose();
         Assert.assertEquals(one, injectedOne);
     }
-**/
+
     @Test()
     public void getNotRegisteredThrowsException() {
-        Optional<Object> optional = register.get("not registered");
+        Optional<?> optional = register.get("not registered");
         Assert.assertFalse(optional.isPresent());
     }
 
@@ -72,4 +72,13 @@ public class RegisterTest {
         private NotInstantiableClass(){};
     }
 
+    @Test
+    public void componentCanBeAddAndRetrieveByType(){
+        register.add(Glucose.class);
+        register.add(Water.class);
+        Water retrievedTwo = register.get(Water.class).get();
+        Glucose retrievedOne = register.get(Glucose.class).get();
+        Assert.assertNotNull(retrievedOne);
+        Assert.assertNotNull(retrievedTwo);
+    }
 }

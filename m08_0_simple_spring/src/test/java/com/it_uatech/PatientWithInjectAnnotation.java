@@ -1,4 +1,4 @@
-package ru.klimakov.nurse;
+package com.it_uatech;
 
 public class PatientWithInjectAnnotation {
 
