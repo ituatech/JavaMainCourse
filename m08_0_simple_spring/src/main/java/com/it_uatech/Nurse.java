@@ -30,7 +30,7 @@ public class Nurse {
                     .stream()
                     .filter(info -> info.getName().startsWith(packageName))
                     .map(ClassPath.ClassInfo::load)
-                    //.filter(clazz -> clazz.isAnnotationPresent(Cure.class))
+                    .filter(clazz -> clazz.isAnnotationPresent(Cure.class))
                     .forEach(info -> register.add(info));
         } catch (IOException e) {
             throw new RuntimeException(e);

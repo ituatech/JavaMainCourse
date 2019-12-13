@@ -1,5 +1,5 @@
 package com.it_uatech;
 
-//@Cure
+@Cure
 public class Water {
 }

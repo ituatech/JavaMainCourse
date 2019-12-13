@@ -14,7 +14,7 @@
     </developers>
 
     <groupId>com.it_uatech</groupId>
-    <artifactId>m03_memory</artifactId>
+    <artifactId>m03_1_memory</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
