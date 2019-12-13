@@ -1,4 +1,4 @@
-package com.it_uatech.storage;
+package com.it_uatech.atm_storage;
 
 import com.it_uatech.model.Banknote;
 
