@@ -6,14 +6,6 @@
 
     <name>L11.1-Java_project_structure</name>
     <description>Code example for L11.1</description>
-    <dependencies>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>17.0.0</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
     <groupId>com.it_uatech</groupId>
     <artifactId>m11_1_simple_ATM</artifactId>
