@@ -1,29 +1,33 @@
 package com.it_uatech;
 
-import com.it_uatech.atm_storage.ATMStorage;
+import com.it_uatech.storage.ATMStorage;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ATMDepartment {
 
-    private List<ATMStorage> atmList = new ArrayList<>();
+    private Map<String, ATMStorage> atmList = new HashMap<>();
 
-    public void register(ATMStorage atm) {
-        atmList.add(atm);
+    public void register(String atmKey, ATMStorage atm) {
+        atmList.putIfAbsent(atmKey, atm);
     }
 
-    public void unregister(ATMStorage atm) {
-        atmList.remove(atm);
+    public void unregister(String atmKey) {
+        atmList.remove(atmKey);
     }
 
-    boolean contains (ATMStorage atm) {
-        return atmList.contains(atm);
+    public ATMStorage getAtm(String atmKey) {
+        return atmList.get(atmKey);
     }
 
 
     public int getATMBalances() {
-        int totalAmount = atmList.stream().mapToInt(ATMStorage::getTotalAmount).sum();
+        int totalAmount = atmList.entrySet().stream().mapToInt(entry -> entry.getValue().getTotalAmount()).sum();
         return totalAmount;
+    }
+
+    public void restoreInitState() {
+        atmList.entrySet().forEach(entry -> entry.getValue().restoreInitState());
     }
 }

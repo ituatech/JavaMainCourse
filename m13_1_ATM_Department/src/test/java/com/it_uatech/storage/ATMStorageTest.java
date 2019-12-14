@@ -1,11 +1,15 @@
-package com.it_uatech.atm_storage;
+package com.it_uatech.storage;
 
 import com.it_uatech.model.Banknote;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.HashMap;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 
 public class ATMStorageTest {
@@ -155,6 +159,21 @@ public class ATMStorageTest {
         int amountToWithDraw = totalAmountInStorage;
         atmStorage.withDrawGivenAmount(amountToWithDraw);
         Assert.assertEquals(0,atmStorage.getTotalAmount());
+    }
+
+    @Test
+    public void canSetAndRestoreInitState(){
+        HashMap<Banknote, Integer> initState = new HashMap<>();
+        Arrays.asList(Banknote.values()).forEach(banknote -> initState.put(banknote, (int) (Math.random() * 100 + 20)));
+        atmStorage.setInitialState(initState);
+        atmStorage.loadBanknotesMapGivenNominal(initState);
+        int initTotalAmount = atmStorage.getTotalAmount();
+
+        atmStorage.withDrawGivenAmount(initTotalAmount - initTotalAmount/4);
+        assertNotEquals(initTotalAmount, atmStorage.getTotalAmount());
+
+        atmStorage.restoreInitState();
+        Assert.assertEquals(initTotalAmount, atmStorage.getTotalAmount());
     }
 
     @Test(expected = RuntimeException.class)

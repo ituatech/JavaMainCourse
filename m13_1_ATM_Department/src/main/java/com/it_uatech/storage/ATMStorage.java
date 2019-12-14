@@ -1,16 +1,14 @@
-package com.it_uatech.atm_storage;
+package com.it_uatech.storage;
 
 import com.it_uatech.model.Banknote;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ATMStorage {
 
     private volatile Map<Banknote, Integer> banknotesStorage;
+    private Map<Banknote, Integer> initState;
     private List<Banknote> banknoteSortedList;
 
     private ATMStorage() {
@@ -27,11 +25,8 @@ public class ATMStorage {
     }
 
     public int getTotalAmount() {
-        final int[] totalAmount = {0};
-        banknotesStorage.forEach((nominal, banknotesNumber) ->
-                totalAmount[0] += banknotesNumber * nominal.getValue()
-        );
-        return totalAmount[0];
+        int totalAmount = banknotesStorage.entrySet().stream().mapToInt(entry->entry.getKey().getValue()*entry.getValue()).sum();
+        return totalAmount;
     }
 
     void loadBanknotesGivenNominal(Banknote nominal, int number) {
@@ -91,6 +86,15 @@ public class ATMStorage {
         }
         withDrawBanknotesMapGivenNominal(mapOfBanknotesToWithDraw);
         return mapOfBanknotesToWithDraw;
+    }
+
+    public void setInitialState(HashMap<Banknote, Integer> initState) {
+        this.initState = initState;
+    }
+
+    public void restoreInitState(){
+        banknotesStorage.keySet().stream().forEach(note->banknotesStorage.put(note,0));
+        loadBanknotesMapGivenNominal(initState);
     }
 }
 
