@@ -1,4 +1,4 @@
-package com.it_uatech.io;
+package com.it_uatech.my_example;
 
 import java.io.*;
 
@@ -7,10 +7,11 @@ import java.io.*;
  */
 class JavaIOHelper {
     static void writeObject(String file, Object student) {
-        try (FileOutputStream fos = new FileOutputStream(file);
-             ObjectOutputStream oos = new ObjectOutputStream(fos)) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(file)))) {
+
             oos.writeObject(student);
-            oos.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -18,8 +19,10 @@ class JavaIOHelper {
 
     @SuppressWarnings("unchecked")
     static <T> T readObject(String file, Class<T> clazz) {
-        try (FileInputStream fis = new FileInputStream(file);
-             ObjectInputStream ois = new ObjectInputStream(fis)) {
+        try (ObjectInputStream ois = new ObjectInputStream(
+                new BufferedInputStream(
+                        new FileInputStream(file)))) {
+
             Object object = ois.readObject();
             if (clazz.isAssignableFrom(object.getClass())) {
                 return (T) object;
@@ -34,7 +37,8 @@ class JavaIOHelper {
 
     // io version of java.nio.file.Files.write()
     static void writeToFile(byte[] bytes, String fileName) throws IOException {
-        try (FileOutputStream stream = new FileOutputStream(fileName)) {
+        try (BufferedOutputStream stream = new BufferedOutputStream(
+                new FileOutputStream(fileName))) {
             stream.write(bytes);
         }
     }
@@ -44,7 +48,8 @@ class JavaIOHelper {
         File file = new File(fileName);
         int fileLength = (int) file.length();
         byte[] bytes = new byte[fileLength];
-        try (FileInputStream stream = new FileInputStream(fileName)) {
+        try (BufferedInputStream stream = new BufferedInputStream(
+                new FileInputStream(fileName))) {
             int read = stream.read(bytes);
             if (read != fileLength) {
                 throw new RuntimeException("Read: " + read + " of " + fileLength);
