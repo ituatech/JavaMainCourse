@@ -25,6 +25,7 @@
 		<module>m11_1_simple_ATM</module>
 		<module>m13_1_ATM_Department</module>
         <module>m15_1_json_string</module>
+        <module>m17_1_JDBC</module>
     </modules>
 
     
