@@ -25,7 +25,7 @@ public class LogExecutor {
 
     public int execUpdate(String update) throws SQLException {
         try (Statement stmt = connection.createStatement()) {
-            stmt.execute(update);
+            stmt.execute(update,Statement.RETURN_GENERATED_KEYS);
             return stmt.getUpdateCount();
         }
     }

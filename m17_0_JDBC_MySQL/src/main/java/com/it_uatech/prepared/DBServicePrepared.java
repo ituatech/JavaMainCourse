@@ -32,7 +32,7 @@ public class DBServicePrepared extends DBServiceSimple {
 
             while (!result.isLast()) {
                 result.next();
-                names.add(result.getString("name"));
+                names.add(result.getObject(1).toString());
             }
             return names;
         });
