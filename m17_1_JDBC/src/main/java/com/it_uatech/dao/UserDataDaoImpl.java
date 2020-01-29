@@ -2,7 +2,7 @@ package com.it_uatech.dao;
 
 import com.it_uatech.annotations.Column;
 import com.it_uatech.annotations.Table;
-import com.it_uatech.entity.DataSet;
+import com.it_uatech.entities.DataSet;
 import com.it_uatech.exceptions.ORMException;
 import com.it_uatech.executor.Executor;
 import com.it_uatech.utils.ReflectionHelper;

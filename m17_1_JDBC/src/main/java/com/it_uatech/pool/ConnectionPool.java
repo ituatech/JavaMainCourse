@@ -19,7 +19,7 @@ public class ConnectionPool implements ConnectionFactory{
         for(MyConnection myConnection : pool){
             myConnection.superClose();
         }
-        pool.clear();
+        pool.clear(); 
     }
 
     @Override

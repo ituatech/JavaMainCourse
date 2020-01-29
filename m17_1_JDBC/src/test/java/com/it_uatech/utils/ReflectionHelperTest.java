@@ -2,15 +2,13 @@ package com.it_uatech.utils;
 
 import com.it_uatech.annotations.Column;
 import com.it_uatech.annotations.Table;
-import com.it_uatech.entity.UserDataSet;
+import com.it_uatech.entities.UserDataSet;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 

@@ -5,6 +5,7 @@ import com.it_uatech.dao.UserDataDaoImplTest;
 import com.it_uatech.executor.ExecutorCreateDeleteTableTest;
 import com.it_uatech.executor.ExecutorTest;
 import com.it_uatech.pool.ConnectionPoolTest;
+import com.it_uatech.service.DBServiceImplTest;
 import com.it_uatech.utils.ReflectionHelperTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -16,7 +17,8 @@ import org.junit.runners.Suite;
         UserDataDaoImplTest.class,
         ExecutorTest.class,
         ReflectionHelperTest.class,
-        ConnectionPoolTest.class
+        ConnectionPoolTest.class,
+        DBServiceImplTest.class
 })
 public class TestSuite {
 }

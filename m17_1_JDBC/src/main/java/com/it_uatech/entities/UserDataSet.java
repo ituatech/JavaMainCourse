@@ -1,4 +1,4 @@
-package com.it_uatech.entity;
+package com.it_uatech.entities;
 
 import com.it_uatech.annotations.Column;
 import com.it_uatech.annotations.Table;
@@ -31,6 +31,10 @@ public class UserDataSet extends DataSet {
 
     public int getAge() {
         return age;
+    }
+
+    public long getID(){
+        return  id;
     }
 
     @Override

@@ -1,6 +1,6 @@
 package com.it_uatech.dao;
 
-import com.it_uatech.entity.DataSet;
+import com.it_uatech.entities.DataSet;
 import com.it_uatech.exceptions.ORMException;
 
 import java.sql.SQLException;
