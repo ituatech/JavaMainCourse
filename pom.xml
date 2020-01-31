@@ -28,6 +28,7 @@
         <module>m17_1_JDBC</module>
         <module>m18_1_MyBatis</module>
         <module>m19_1_HomeHibernate</module>
+        <module>m21_1_CacheHome</module>
     </modules>
 
     
@@ -42,13 +43,13 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.8.0-beta4</version>
+            <version>2.0.0-alpha1</version>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.8.0-beta4</version>
+            <version>2.0.0-alpha1</version>
         </dependency>
 
 		<dependency>
