@@ -29,6 +29,7 @@
         <module>m18_1_MyBatis</module>
         <module>m19_1_HomeHibernate</module>
         <module>m21_1_CacheHome</module>
+        <module>m23_1_JettyCacheView</module>
     </modules>
 
     
