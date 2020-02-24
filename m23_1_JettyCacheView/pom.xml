@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>L23.1-jetty service</name>
-    <description>Code example for L21.1</description>
+    <description>Code example for L23.1</description>
 
     <groupId>com.it_uatech</groupId>
     <artifactId>m23_1_JettyCacheView</artifactId>

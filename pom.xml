@@ -30,6 +30,7 @@
         <module>m19_1_HomeHibernate</module>
         <module>m21_1_CacheHome</module>
         <module>m23_1_JettyCacheView</module>
+        <module>m25_1_DependencyInjection</module>
     </modules>
 
     
