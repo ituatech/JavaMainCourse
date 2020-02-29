@@ -10,6 +10,7 @@
     <groupId>com.it_uatech</groupId>
     <artifactId>m25_1_DependencyInjection</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>com.it_uatech</groupId>
@@ -18,17 +19,26 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <properties>
+        <spring.version>5.2.3.RELEASE</spring.version>
+    </properties>
+
     <dependencies>
         <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-server</artifactId>
-            <version>10.0.0.alpha1</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
         </dependency>
-
         <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-webapp</artifactId>
-            <version>10.0.0.alpha1</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.freemarker</groupId>
@@ -64,4 +74,13 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>root</finalName>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

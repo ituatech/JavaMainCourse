@@ -18,7 +18,7 @@ class TemplateProcessor {
     private final Configuration configuration;
 
     private TemplateProcessor() {
-        configuration = new Configuration();
+        configuration = new Configuration(Configuration.VERSION_2_3_29);
         configuration.setClassForTemplateLoading(this.getClass(), "/tml/");
     }
 

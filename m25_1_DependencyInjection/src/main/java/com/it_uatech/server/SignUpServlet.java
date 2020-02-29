@@ -3,21 +3,33 @@ package com.it_uatech.server;
 import com.it_uatech.api.model.AccountDataSet;
 import com.it_uatech.api.service.DBServiceAccount;
 import com.it_uatech.api.service.DataServiceException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SignUpServlet extends HttpServlet {
+public class SignUpServlet extends ParentServlet {
+
+    private  static final Logger logger = LoggerFactory.getLogger(SignUpServlet.class);
 
     private DBServiceAccount serviceAccount;
 
+    public SignUpServlet() {
+    }
+
     public SignUpServlet(DBServiceAccount serviceAccount) {
         this.serviceAccount = serviceAccount;
+    }
+
+    @Override
+    public void init(){
+        super.init();
+        logger.info("Call signUpServlet init method");
+        this.serviceAccount = (DBServiceAccount) getAppContext().getBean("dbServiceAccount");
     }
 
     @Override

@@ -2,29 +2,39 @@ package com.it_uatech.server;
 
 import com.it_uatech.api.cache.CacheEngine;
 import com.it_uatech.api.model.UserDataSet;
-import org.eclipse.jetty.http.HttpStatus;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StatisticServlet extends HttpServlet {
+public class StatisticServlet extends ParentServlet {
+
+    private  static final Logger logger = LoggerFactory.getLogger(StatisticServlet.class);
 
     CacheEngine<Long, UserDataSet> cache;
+
+    public StatisticServlet() {
+    }
 
     public StatisticServlet(CacheEngine<Long, UserDataSet> cache) {
         this.cache = cache;
     }
 
     @Override
+    public void init(){
+        super.init();
+        logger.info("Call statisticServlet init method");
+        this.cache = (CacheEngine<Long, UserDataSet>) getAppContext().getBean("cache");
+    }
+
+    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         Object userAttr = req.getSession().getAttribute("user");
         if ((userAttr != null) && userAttr.equals("authorised")) {
-            resp.setStatus(HttpStatus.OK_200);
             resp.getWriter().println(getPage());
             resp.setContentType("text/html;charset=utf-8");
             resp.setStatus(HttpServletResponse.SC_OK);
