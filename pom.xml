@@ -19,21 +19,34 @@
         <module>m01_1_maven</module>
         <module>m03_1_memory</module>
         <module>m05_1_myArrayList</module>
-		<module>m05_2_TimeBenchmark_JMH</module>  
-		<module>m07_1_GC_homework</module>	
+		<module>m05_2_TimeBenchmark_JMH</module>
+        <module>m07_0_GC_lesson</module>
+		<module>m07_1_GC_homework</module>
+        <module>m08_0_simple_spring</module>
+        <module>m09_0_anatation_reflextion</module>
 		<module>m09_1_myJUnit</module>
 		<module>m11_1_simple_ATM</module>
+        <module>m13_0_Patterns</module>
 		<module>m13_1_ATM_Department</module>
+        <module>m15_0_io_serialization</module>
         <module>m15_1_json_string</module>
+        <module>m17_0_JDBC_MySQL</module>
         <module>m17_1_JDBC</module>
         <module>m18_1_MyBatis</module>
+        <module>m19_0_Hibernate</module>
         <module>m19_1_HomeHibernate</module>
+        <module>m21_0_CacheExemple</module>
         <module>m21_1_CacheHome</module>
+        <module>m22_0_NoSQL</module>
+        <module>m23_0_WebServerJetty</module>
         <module>m23_1_JettyCacheView</module>
+        <module>m25_0_DepInjection</module>
+        <module>m26_0_Logging</module>
+        <module>m27_0_Thread</module>
         <module>m25_1_DependencyInjection</module>
+        <module>m27_1_Thread_BinarySearch</module>
     </modules>
 
-    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>12</maven.compiler.source>
