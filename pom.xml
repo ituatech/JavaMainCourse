@@ -45,6 +45,8 @@
         <module>m27_0_Thread</module>
         <module>m25_1_DependencyInjection</module>
         <module>m27_1_Thread_BinarySearch</module>
+        <module>m29_0_MessageSystem</module>
+        <module>m29_1_MessageSystemHome</module>
     </modules>
 
     <properties>

@@ -25,7 +25,7 @@ class SeriesRun {
                                 System.out.println("Thread id: " + threadId);
                                 currentMax++;
 
-                                SeriesRun.this.notify();
+                                SeriesRun.this.notifyAll();
                             }
                         }catch (InterruptedException e) {
                             e.printStackTrace();
