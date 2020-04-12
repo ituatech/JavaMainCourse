@@ -25,8 +25,10 @@ public class StatisticWebSocket {
     @OnWebSocketMessage
     public void onText(Session session, String message) {
         logger.info("Received message: {}",message);
-        FrontendService front = (FrontendService) msgSystemCtx.getMessageSystem().getAddresseeMap().get(msgSystemCtx.getFrontAddress());;
-        front.handleRequest(Long.valueOf(message), session);
+        FrontendService front = (FrontendService) msgSystemCtx.getMessageSystem().getAddresseeMap().get(msgSystemCtx.getFrontAddress());
+        if(!message.isEmpty()) {
+            front.handleRequest(Long.valueOf(message), session);
+        }
     }
 
     @OnWebSocketConnect

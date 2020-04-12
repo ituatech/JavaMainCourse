@@ -33,8 +33,8 @@ public class FrontendServiceImpl implements FrontendService {
 
     @Override
     public void handleRequest(Long id, Session session) {
-        logger.info("Frontend handle request");
-        Message msg = new MessageGetUserById(msContext.getFrontAddress(),msContext.getDbAddress(),id, session);
+        logger.info("Frontend handle request for id: {}", id);
+        Message msg = new MessageGetUserById(msContext.getFrontAddress(), msContext.getDbAddress(), id, session);
         getMessageSystem().sendMessage(msg);
     }
 
@@ -49,7 +49,7 @@ public class FrontendServiceImpl implements FrontendService {
                 logger.info("Session send message to client");
                 session.getRemote().sendString(serialisedJSON.toString());
             } catch (IOException e) {
-                logger.info("Error send websocket message: {}",e.getMessage());
+                logger.info("Error send websocket message: {}", e.getMessage());
             }
         }
     }

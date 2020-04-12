@@ -54,7 +54,7 @@ public class StatisticWebSocketServlet extends WebSocketServlet {
         logger.info("call get method");
         Object userAttr = req.getSession().getAttribute("user");
         if ((userAttr != null) && userAttr.equals("authorised")) {
-            resp.getWriter().println(getPage());
+            resp.getWriter().println(getPageStatistic());
             resp.setContentType("text/html;charset=utf-8");
             resp.setStatus(HttpServletResponse.SC_OK);
         } else {
@@ -62,11 +62,20 @@ public class StatisticWebSocketServlet extends WebSocketServlet {
         }
     }
 
-    private String getPage() throws IOException {
+    @Override
+    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        logger.info("call put method");
         Map<String, Object> pageVariables = new HashMap<>();
-        pageVariables.put("cacheSize", cache.getSize());
         pageVariables.put("cacheHit", cache.getHitCount());
         pageVariables.put("cacheMiss", cache.getMissCount());
+        resp.getWriter().println(TemplateProcessor.instance().getPage("cache.json", pageVariables));
+        resp.setContentType("text/html;charset=utf-8");
+        resp.setStatus(HttpServletResponse.SC_OK);
+    }
+
+    private String getPageStatistic() throws IOException {
+        Map<String, Object> pageVariables = new HashMap<>();
+        pageVariables.put("cacheSize", cache.getSize());
         return TemplateProcessor.instance().getPage("statistic.html", pageVariables);
     }
 
