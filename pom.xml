@@ -40,6 +40,7 @@
         <module>m22_0_NoSQL</module>
         <module>m23_0_WebServerJetty</module>
         <module>m23_1_JettyCacheView</module>
+        <module>m24_0_AJAX_Websocket</module>
         <module>m25_0_DepInjection</module>
         <module>m26_0_Logging</module>
         <module>m27_0_Thread</module>

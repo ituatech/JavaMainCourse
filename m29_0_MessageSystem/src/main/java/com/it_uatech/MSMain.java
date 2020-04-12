@@ -27,7 +27,7 @@ public class MSMain {
 
         messageSystem.start();
 
-        int i = 1000;
+        int i = 100;
         while (i>0) {
 
             //for test
@@ -37,7 +37,7 @@ public class MSMain {
             frontendService.handleRequest("tully");
             frontendService.handleRequest("sully");
             i--;
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }
         messageSystem.dispose();
     }

@@ -3,10 +3,7 @@ package com.it_uatech.messageSystem;
 import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author tully
- */
-public final class Address {
+public class Address {
     private static final AtomicInteger ID_GENERATOR = new AtomicInteger();
     private final String id;
 
@@ -21,7 +18,7 @@ public final class Address {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Address)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         Address address = (Address) o;
         return id.equals(address.id);
     }
