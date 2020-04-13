@@ -48,6 +48,9 @@
         <module>m27_1_Thread_BinarySearch</module>
         <module>m29_0_MessageSystem</module>
         <module>m29_1_MessageSystemHome</module>
+        <module>m30_0_JavaUtilConcurrent</module>
+        <module>m31_0_Multiprocessor_IO</module>
+        <module>m32_0_Multiprocessor_NIO</module>
     </modules>
 
     <properties>
