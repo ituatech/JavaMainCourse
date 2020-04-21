@@ -1,0 +1,4 @@
+{
+  "cacheHits": "${cacheHit}",
+  "cacheMiss": "${cacheMiss}"
+}

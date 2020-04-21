@@ -48,8 +48,9 @@ public class SocketMsgWorker implements MsgWorker {
     }
 
     @Override
+    @Blocks
     public Msg take() throws InterruptedException {
-        return input.take();
+        return input.take(); // blocks
     }
 
     @Override
@@ -101,7 +102,7 @@ public class SocketMsgWorker implements MsgWorker {
     private static Msg getMsgFromJSON(String json) throws ParseException, ClassNotFoundException {
         JSONParser jsonParser = new JSONParser();
         JSONObject jsonObject = (JSONObject) jsonParser.parse(json);
-        String className = (String) jsonObject.get(Msg.CLASS_NAME_VARIABLE);
+        String className = (String) jsonObject.get(Msg.getAnnotatedVariableNameToJsonParse());
         Class<?> msgClass = Class.forName(className);
         return (Msg) new Gson().fromJson(json, msgClass);
     }

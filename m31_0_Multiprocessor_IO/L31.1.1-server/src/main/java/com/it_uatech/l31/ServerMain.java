@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class ServerMain {
     private static final Logger logger = Logger.getLogger(ServerMain.class.getName());
 
-    private static final String CLIENT_START_COMMAND = "java -jar ../L31.1.2-client/target/client.jar";
+    private static final String CLIENT_START_COMMAND = "java -jar L31.1.2-client/target/client.jar";
     private static final int CLIENT_START_DELAY_SEC = 5;
 
     public static void main(String[] args) throws Exception {
@@ -28,7 +28,10 @@ public class ServerMain {
 
     private void start() throws Exception {
         ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
-        //startClient(executorService);
+
+        for (int i = 0; i < 3; i++) {
+            startClient(executorService);
+        }
 
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
         ObjectName name = new ObjectName("com.it_uatech:type=Server");

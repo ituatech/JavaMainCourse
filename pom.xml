@@ -50,6 +50,7 @@
         <module>m29_1_MessageSystemHome</module>
         <module>m30_0_JavaUtilConcurrent</module>
         <module>m31_0_Multiprocessor_IO</module>
+        <module>m31_1_MultiprocessorHome</module>
         <module>m32_0_Multiprocessor_NIO</module>
     </modules>
 

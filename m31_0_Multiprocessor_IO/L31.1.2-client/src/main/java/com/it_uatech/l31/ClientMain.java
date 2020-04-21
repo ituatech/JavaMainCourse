@@ -27,7 +27,7 @@ public class ClientMain {
 
     @SuppressWarnings("InfiniteLoopStatement")
     private void start() throws Exception {
-        SocketMsgWorker client = new ClientSocketMsgWorker(HOST, PORT);
+        ClientSocketMsgWorker client = new ClientSocketMsgWorker(HOST, PORT);
         client.init();
 
         ExecutorService executorService = Executors.newSingleThreadExecutor();
@@ -35,7 +35,7 @@ public class ClientMain {
             try {
                 while (true) {
                     Object msg = client.take();
-                    System.out.println("Message received: " + msg.toString());
+                    System.out.println(client.getName()+ "- Message received: " + msg.toString());
                 }
             } catch (InterruptedException e) {
                 logger.log(Level.SEVERE, e.getMessage());
@@ -44,9 +44,9 @@ public class ClientMain {
 
         int count = 0;
         while (count < MAX_MESSAGES_COUNT) {
-            Msg msg = new PingMsg();
+            Msg msg = new PingMsg(client.getName());
             client.send(msg);
-            System.out.println("Message sent: " + msg.toString());
+            System.out.println(client.getName() +"- Message sent: " + msg.toString());
             Thread.sleep(PAUSE_MS);
             count++;
         }
