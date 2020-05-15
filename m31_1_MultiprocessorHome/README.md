@@ -1,5 +1,5 @@
 ДЗ-16: MessageServer
-Cревер из ДЗ-15 разделить на три приложения:
+Cервер из ДЗ-15 разделить на три приложения:
 • MessageServer
 • Frontend
 • DBServer
