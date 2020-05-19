@@ -28,10 +28,10 @@ public class EhcacheMain {
         MBeanServer mBeanServer = ManagementFactory.getPlatformMBeanServer();
         ManagementService.registerMBeans(manager, mBeanServer, false, true, false, true);
 
-        cacheNamesExample();
+        //cacheNamesExample();
         //evictedExample();
         //lifeExample();
-        //idleExample();
+        idleExample();
     }
 
     private void cacheNamesExample() {
@@ -50,7 +50,6 @@ public class EhcacheMain {
         System.out.println("Evicted count: " + testCache.getStatistics().cacheEvictedCount());
     }
 
-    @SuppressWarnings("InfiniteLoopStatement")
     private void lifeExample() throws InterruptedException {
         System.out.println("\nLife example\n");
         Cache testCache = EhcacheHelper.createLifeCache(manager, "lifeCache");

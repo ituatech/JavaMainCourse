@@ -2,9 +2,6 @@ package com.it_uatech.l32.messages;
 
 import com.it_uatech.l32.app.Msg;
 
-/**
- * Created by tully.
- */
 public class PingMsg extends Msg {
     private final long time;
     private final String pid;

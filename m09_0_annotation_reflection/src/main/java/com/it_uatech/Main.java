@@ -8,10 +8,7 @@ import com.it_uatech.annotations.Unfinished;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by tully.
- */
-@SuppressWarnings({"ResultOfMethodCallIgnored", "UnusedReturnValue"})
+@SuppressWarnings({"UnusedReturnValue"})
 @Deprecated                                                         //ElementType.TYPE
 @Unfinished(
         priority = Unfinished.Priority.LOW,

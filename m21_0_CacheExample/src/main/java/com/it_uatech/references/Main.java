@@ -15,10 +15,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        strong();
+        //strong();
         //weak();
         //soft();
-        //phantom();
+        phantom();
     }
 
     private static void strong() {

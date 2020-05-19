@@ -14,7 +14,7 @@ import java.lang.annotation.*;
         ElementType.PACKAGE, ElementType.FIELD, ElementType.LOCAL_VARIABLE})
 @Inherited
 public @interface Unfinished {
-    public enum Priority {LOW, MEDIUM, HIGH}
+    enum Priority {LOW, MEDIUM, HIGH}
 
     String value();
 

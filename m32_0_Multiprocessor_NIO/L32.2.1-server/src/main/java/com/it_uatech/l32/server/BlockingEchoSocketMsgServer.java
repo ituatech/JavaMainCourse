@@ -1,9 +1,9 @@
 package com.it_uatech.l32.server;
 
+import com.it_uatech.l32.app.Blocks;
+import com.it_uatech.l32.app.Msg;
 import com.it_uatech.l32.app.MsgWorker;
 import com.it_uatech.l32.channel.SocketMsgWorker;
-import com.it_uatech.l32.app.Msg;
-import com.it_uatech.l32.app.Blocks;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -14,9 +14,6 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by tully.
- */
 public class BlockingEchoSocketMsgServer {
     private static final Logger logger = Logger.getLogger(NonBlockingEchoSocketMsgServer.class.getName());
 

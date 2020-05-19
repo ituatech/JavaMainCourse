@@ -23,7 +23,7 @@
         <module>m07_0_GC_lesson</module>
 		<module>m07_1_GC_homework</module>
         <module>m08_0_simple_spring</module>
-        <module>m09_0_anatation_reflextion</module>
+        <module>m09_0_annotation_reflection</module>
 		<module>m09_1_myJUnit</module>
 		<module>m11_1_simple_ATM</module>
         <module>m13_0_Patterns</module>
@@ -35,7 +35,7 @@
         <module>m18_1_MyBatis</module>
         <module>m19_0_Hibernate</module>
         <module>m19_1_HomeHibernate</module>
-        <module>m21_0_CacheExemple</module>
+        <module>m21_0_CacheExample</module>
         <module>m21_1_CacheHome</module>
         <module>m22_0_NoSQL</module>
         <module>m23_0_WebServerJetty</module>

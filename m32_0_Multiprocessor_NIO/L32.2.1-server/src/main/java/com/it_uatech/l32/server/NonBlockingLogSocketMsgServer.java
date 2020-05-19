@@ -13,9 +13,6 @@ import java.util.Iterator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by tully.
- */
 public class NonBlockingLogSocketMsgServer {
     private static final Logger logger = Logger.getLogger(NonBlockingEchoSocketMsgServer.class.getName());
 

@@ -30,7 +30,7 @@ public class ServerMain {
         ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
 
         for (int i = 0; i < 3; i++) {
-            startClient(executorService);
+           startClient(executorService);
         }
 
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();

@@ -1,12 +1,12 @@
 package com.it_uatech.l32.channel;
 
 import com.google.gson.Gson;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 import com.it_uatech.l32.app.Blocks;
 import com.it_uatech.l32.app.Msg;
 import com.it_uatech.l32.app.MsgWorker;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,9 +22,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by tully.
- */
 public class SocketMsgWorker implements MsgWorker {
     private static final Logger logger = Logger.getLogger(SocketMsgWorker.class.getName());
     private static final int WORKERS_COUNT = 2;

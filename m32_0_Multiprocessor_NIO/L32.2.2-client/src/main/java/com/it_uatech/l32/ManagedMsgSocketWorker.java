@@ -5,9 +5,6 @@ import com.it_uatech.l32.channel.SocketMsgWorker;
 import java.io.IOException;
 import java.net.Socket;
 
-/**
- * Created by tully.
- */
 class ManagedMsgSocketWorker extends SocketMsgWorker {
 
     private final Socket socket;
@@ -16,7 +13,7 @@ class ManagedMsgSocketWorker extends SocketMsgWorker {
         this(new Socket(host, port));
     }
 
-    private ManagedMsgSocketWorker(Socket socket) throws IOException {
+    private ManagedMsgSocketWorker(Socket socket) {
         super(socket);
         this.socket = socket;
     }

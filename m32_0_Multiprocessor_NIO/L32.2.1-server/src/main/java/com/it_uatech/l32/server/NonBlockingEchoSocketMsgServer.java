@@ -17,9 +17,6 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by tully.
- */
 public class NonBlockingEchoSocketMsgServer implements NonBlockingEchoSocketMsgServerMBean {
     private static final Logger logger = Logger.getLogger(NonBlockingEchoSocketMsgServer.class.getName());
 
